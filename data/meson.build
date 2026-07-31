@@ -9,6 +9,7 @@ endif
 
 portal_sources = files(
   'org.freedesktop.portal.Account.xml',
+  'org.freedesktop.portal.Audio.xml',
   'org.freedesktop.portal.Background.xml',
   'org.freedesktop.portal.Camera.xml',
   'org.freedesktop.portal.Clipboard.xml',
@@ -52,6 +53,7 @@ portal_impl_sources = files(
   'org.freedesktop.impl.portal.Access.xml',
   'org.freedesktop.impl.portal.Account.xml',
   'org.freedesktop.impl.portal.AppChooser.xml',
+  'org.freedesktop.impl.portal.Audio.xml',
   'org.freedesktop.impl.portal.Background.xml',
   'org.freedesktop.impl.portal.Clipboard.xml',
   'org.freedesktop.impl.portal.DynamicLauncher.xml',

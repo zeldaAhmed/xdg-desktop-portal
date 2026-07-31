@@ -83,6 +83,7 @@ xdp_method_info_sources = files('xdp-method-info.c') + xdp_method_info_built_sou
 
 xdg_desktop_portal_sources = files(
   'account.c',
+  'audio.c',
   'background.c',
   'camera.c',
   'clipboard.c',

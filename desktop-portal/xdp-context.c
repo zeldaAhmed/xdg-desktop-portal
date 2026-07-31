@@ -11,6 +11,7 @@
 #include <spa/utils/string.h>
 
 #include "account.h"
+#include "audio.h"
 #include "background.h"
 #include "camera.h"
 #include "clipboard.h"
@@ -941,6 +942,7 @@ xdp_context_register (XdpContext       *context,
   init_usb (context);
 #endif
   init_registry (context);
+  init_portal_in_fiber (context, init_audio);
 
   await_pending_inits (context);
 

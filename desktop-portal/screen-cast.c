@@ -980,7 +980,7 @@ handle_open_pipewire_remote (XdpDbusScreenCast *object,
                              const char *arg_session_handle,
                              GVariant *arg_options)
 {
-  XdpAppInfo *app_info = xdp_invocation_get_app_info  (invocation);
+  XdpAppInfo *app_info = xdp_invocation_get_app_info (invocation);
   XdpSession *session;
   GList *streams;
   PipeWireRemote *remote;
